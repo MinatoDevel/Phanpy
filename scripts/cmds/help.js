@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `🌐 ALISHA_BEBE😙❤️ COMMAND LIST 🌐`; // Replace this header with your bot name
+      msg += `🌐 BIREYY--->🐉💙 COMMAND LIST 🌐`; // Replace this header with your bot name
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -61,7 +61,7 @@ module.exports = {
 
       const totalCommands = commands.size;
       msg += `\n\n💡 The bot currently has ${totalCommands} commands available.`;
-      msg += `\nType 🥸help [command]' to get details on a specific command.`;
+      msg += `\nType -help [command]' to get details on a specific command.`;
       msg += `\n🛠 Created by: 🐐 | DEV.BIRENDRA`; // Personal signature
 
       const helpListImages = [
